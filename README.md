@@ -1,6 +1,6 @@
 ".md" --> Extensão 'markdown' (linguagem de marcação mais simplificada)
 
-<h1>Sistema de cadatro de jogos</h1>
+<h1>Sistema de cadastro de jogos</h1>
 
 > Status do projeto: Em desenvolvimento
 
