@@ -51,3 +51,5 @@ Como usar:
 ```git switch <branch_name>```: Este comando altera a branch selecionada (ativa). Pense nele como um interruptor que te permite alternar entre diferentes versões do seu projeto.
 
 ```git push origin <branch_name>```: Este comando envia as alterações da sua branch selecionada local para o repositório remoto (GitHub). É como enviar a "caixa" para o seu destino final.
+
+```git merge <branch_destino>```: Este comando faz a atualização das alterações realizadas na branch atual para a branch de destino. IMPORTANTE: Confirmar antes qual branch e está ativa e se necessário substituir a branch utilizando o comando switch
