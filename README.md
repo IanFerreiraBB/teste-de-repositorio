@@ -32,3 +32,7 @@ node app.js
 
 ```git push origin main```: Este comando envia os commits do seu repositório local para o repositório remoto (origem), na branch principal (main). Isso torna suas alterações visíveis para outros colaboradores e as salva no repositório remoto.
 Lembre-se que o git push pode exigir configuração de chaves SSH para autenticação com o GitHub, garantindo que você tenha permissão para enviar as alterações para o repositório remoto.
+
+```git restore --source <hashCode> app.js```: Este comando restaurará o arquivo app.js para a versão presente no commit com o hash definido.
+
+```git restore --source <hashCode> .```: Este comando restaurará todos os arquivos modificados para a versão presente no commit com o hash definido.
