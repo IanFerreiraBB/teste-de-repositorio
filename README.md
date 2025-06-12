@@ -36,3 +36,11 @@ Lembre-se que o git push pode exigir configuração de chaves SSH para autentica
 ```git restore --source <hashCode> app.js```: Este comando restaurará o arquivo app.js para a versão presente no commit com o hash definido.
 
 ```git restore --source <hashCode> .```: Este comando restaurará todos os arquivos modificados para a versão presente no commit com o hash definido.
+
+O comando git add é usado para adicionar arquivos ao índice (staging area) do Git, preparando-os para serem incluídos no próximo commit.
+
+Como usar:
+
+```git add <nome_do_arquivo>```: Adiciona um arquivo específico. Ex: git add contato.html
+
+```git add .```: Adiciona todos os arquivos modificados e novos no diretório atual e subdiretórios.
