@@ -31,6 +31,7 @@ node app.js
 ```git commit```: Este comando é usado para salvar as alterações feitas em seus arquivos no histórico do repositório local. É importante adicionar uma mensagem descritiva ao commit para que você e outros colaboradores possam entender as mudanças feitas.
 
 ```git push origin main```: Este comando envia os commits do seu repositório local para o repositório remoto (origem), na branch principal (main). Isso torna suas alterações visíveis para outros colaboradores e as salva no repositório remoto.
+
 Lembre-se que o git push pode exigir configuração de chaves SSH para autenticação com o GitHub, garantindo que você tenha permissão para enviar as alterações para o repositório remoto.
 
 ```git restore --source <hashCode> app.js```: Este comando restaurará o arquivo app.js para a versão presente no commit com o hash definido.
@@ -44,3 +45,9 @@ Como usar:
 ```git add <nome_do_arquivo>```: Adiciona um arquivo específico. Ex: git add contato.html
 
 ```git add .```: Adiciona todos os arquivos modificados e novos no diretório atual e subdiretórios.
+
+```git checkout -b <branch_name>```: Este comando cria uma nova branch e muda para ela. É como criar uma cópia do seu projeto em um novo espaço de trabalho para experimentar sem afetar a versão principal.
+
+```git switch <branch_name>```: Este comando altera a branch selecionada (ativa). Pense nele como um interruptor que te permite alternar entre diferentes versões do seu projeto.
+
+```git push origin <branch_name>```: Este comando envia as alterações da sua branch selecionada local para o repositório remoto (GitHub). É como enviar a "caixa" para o seu destino final.
